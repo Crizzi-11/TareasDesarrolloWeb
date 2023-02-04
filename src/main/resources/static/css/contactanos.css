@@ -3,8 +3,11 @@
     Created on : 3 feb 2023, 16:33:40
     Author     : Cristofer
 */
+/*se aplica la fuente*/
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
+
+/*se aplica a todo el css*/
 *{
     margin: 0;
     padding: 0;
@@ -12,13 +15,17 @@
     box-sizing: border-box;
 }
 
-
+/*se aplica a topdo el cuerpo*/
 body{
     background: linear-gradient(120deg,#65098C,#E68BFA);
     height: 100vh;
     overflow: hidden;
 }
 
+/*
+Se posiciona  y se sigue el ejemplo de la clase #3
+asi dandole un enfoque al apartado de contactanos
+llenando sus datos*/
 
 .centro{
     position: absolute;

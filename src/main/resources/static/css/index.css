@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
+/*
+Se implementa en todo la fuente en el cuerpo para asi poder llevar un "mejor"
+orden 
+*/
 
 *{
     margin: 0;
@@ -20,10 +24,17 @@ body{
     background-repeat:no-repeat;
 }
 
+/*
+Se posiciona y se baja un poco todo lo que esta en la clase explicacion*/
+
 .explicacion{
     position: absolute;
     top: 200px;
 }
+/*
+se le da edicion a la imagen
+y a su agrupamiento boss, así coomo a las demas clses
+h1,jefe,h2,p, logo*/
 
 .boss img {
     position: relative;
@@ -106,6 +117,12 @@ body{
     top: 0;
 }
 
+/*
+Se aplica lo que se vio en la clase #3
+donde le dan un orden por etiquetas de links y listas
+para poder editarlas todas de una vez asi agregando la clase .redsocial 
+para darle un posicionamineto en la parte inferior dando a entender que esas 
+.imagenes son links de dichas redes sociales*/
 
 nav{
     padding-left: 50px;

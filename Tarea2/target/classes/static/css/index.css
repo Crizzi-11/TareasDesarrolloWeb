@@ -1,0 +1,157 @@
+
+/* 
+    Created on : 2 feb 2023, 23:52:53
+    Author     : Cristofer
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+/*
+Se implementa en todo la fuente en el cuerpo para asi poder llevar un "mejor"
+orden 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.eltiempo.com/files/article_main/uploads/2022/11/22/637d7161378f8.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/*
+Se posiciona y se baja un poco todo lo que esta en la clase explicacion*/
+
+.explicacion{
+    position: absolute;
+    top: 200px;
+}
+/*
+se le da edicion a la imagen
+y a su agrupamiento boss, así coomo a las demas clses
+h1,jefe,h2,p, logo*/
+
+.boss img {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    margin: 30px;
+    margin-right: 200px;
+    left: 100px;
+    
+    
+}
+
+.boss h1{
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+
+
+.Jefe h2 {
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    left: 300px;
+    top: 20px;
+}
+
+.Jefe p{
+    color:#ffffff;
+    position:absolute;
+    height: 100px;
+    width: 400px;
+    left: 130px;
+    top: 500px;
+}
+
+
+.piloto h2{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    left: 925px;
+    
+}
+
+.piloto p{
+    color:#ffffff;
+    position:absolute;
+    height: 100px;
+    width: 400px;
+    left: 800px;
+    top: 500px;
+}
+
+.copiloto h2{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    left: 1550px;
+    
+}
+
+.copiloto p{
+    color:#ffffff;
+    position:absolute;
+    height: 100px;
+    width: 400px;
+    left: 1400px;
+    top: 500px;
+}
+
+.logo{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*
+Se aplica lo que se vio en la clase #3
+donde le dan un orden por etiquetas de links y listas
+para poder editarlas todas de una vez asi agregando la clase .redsocial 
+para darle un posicionamineto en la parte inferior dando a entender que esas 
+.imagenes son links de dichas redes sociales*/
+
+nav{
+    padding-left: 50px;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 200px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+}
+.redsocial{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    top: 800px;
+    margin-left: 100px;
+    
+    
+}
+
+
+
+
